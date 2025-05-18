@@ -1,0 +1,70 @@
+正在合成第 1 句:
+  文本: '第一次见面，感觉有点小紧张呢。我是一个很容易被温柔打动的人，也总是对有趣的灵魂特别没抵抗力。平时喜欢听歌、看电影、偶尔也会发呆，想知道你会不会也不小心闯进我的小...'
+  参考音色: liutao-9s.mp3
+  输出路径: /workspace/Deepseek-R1-Chat-32B/index-tts/output/sentence_1.wav
+>> start inference...
+wav shape: torch.Size([1, 229376]) min: tensor(-23912.1113) max: tensor(23681.8594)
+wav shape: torch.Size([1, 205824]) min: tensor(-21426.5566) max: tensor(24866.1992)
+wav shape: torch.Size([1, 177152]) min: tensor(-18419.0488) max: tensor(18438.2773)
+>> Reference audio length: 9.02 seconds
+>> gpt_gen_time: 204.43 seconds
+>> gpt_forward_time: 0.84 seconds
+>> bigvgan_time: 5.31 seconds
+>> Total inference time: 210.65 seconds
+>> Generated audio length: 25.51 seconds
+>> RTF: 8.2560
+>> wav file saved to: /workspace/Deepseek-R1-Chat-32B/index-tts/output/sentence_1.wav
+第 1 句合成成功！
+
+正在合成第 2 句:
+  文本: '在时光的流转中，我们如同匆匆过客，见证着生命的诞生与消逝，欢笑与泪水。我们在春天播下希望的种子，在夏日挥洒辛勤的汗水，在秋天收获成功的喜悦，在冬日反思沉淀。每一...'
+  参考音色: liutao-9s.mp3
+  输出路径: /workspace/Deepseek-R1-Chat-32B/index-tts/output/sentence_2.wav
+>> start inference...
+wav shape: torch.Size([1, 205824]) min: tensor(-26413.2871) max: tensor(27748.0137)
+wav shape: torch.Size([1, 251904]) min: tensor(-28107.6992) max: tensor(27505.2227)
+wav shape: torch.Size([1, 223232]) min: tensor(-27446.4902) max: tensor(25603.3008)
+>> Reference audio length: 9.02 seconds
+>> gpt_gen_time: 232.10 seconds
+>> gpt_forward_time: 0.81 seconds
+>> bigvgan_time: 5.35 seconds
+>> Total inference time: 238.32 seconds
+>> Generated audio length: 28.37 seconds
+>> RTF: 8.3993
+>> wav file saved to: /workspace/Deepseek-R1-Chat-32B/index-tts/output/sentence_2.wav
+第 2 句合成成功！
+
+正在合成第 3 句:
+  文本: '夜色沉沉，时间仿佛停滞，我们谁都没有再说话，只是安静地靠在一起，听着彼此的心跳渐渐同步，外面的风吹动窗帘，投下一片片温柔的影子，而我的世界，此刻只剩下了她的呼吸...'
+  参考音色: liutao-9s.mp3
+  输出路径: /workspace/Deepseek-R1-Chat-32B/index-tts/output/sentence_3.wav
+>> start inference...
+wav shape: torch.Size([1, 310272]) min: tensor(-18877.5801) max: tensor(21135.0312)
+wav shape: torch.Size([1, 232448]) min: tensor(-23906.6934) max: tensor(25354.4355)
+>> Reference audio length: 9.02 seconds
+>> gpt_gen_time: 224.65 seconds
+>> gpt_forward_time: 0.61 seconds
+>> bigvgan_time: 4.00 seconds
+>> Total inference time: 229.30 seconds
+>> Generated audio length: 22.61 seconds
+>> RTF: 10.1401
+>> wav file saved to: /workspace/Deepseek-R1-Chat-32B/index-tts/output/sentence_3.wav
+第 3 句合成成功！
+
+正在合成第 4 句:
+  文本: '手机银行转账功能非常便捷，但请务必注意安全。在操作时，请仔细核对收款人的姓名、账号和开户行信息，确认无误后再进行下一步。同时，我们设置了单笔和日累计转账限额以保...'
+  参考音色: liutao-9s.mp3
+  输出路径: /workspace/Deepseek-R1-Chat-32B/index-tts/output/sentence_4.wav
+>> start inference...
+wav shape: torch.Size([1, 315392]) min: tensor(-24962.6172) max: tensor(25628.6875)
+wav shape: torch.Size([1, 317440]) min: tensor(-29485.7871) max: tensor(30650.1406)
+wav shape: torch.Size([1, 107520]) min: tensor(-23619.4336) max: tensor(23986.5449)
+>> Reference audio length: 9.02 seconds
+>> gpt_gen_time: 331.52 seconds
+>> gpt_forward_time: 0.85 seconds
+>> bigvgan_time: 5.59 seconds
+>> Total inference time: 338.01 seconds
+>> Generated audio length: 30.85 seconds
+>> RTF: 10.9572
+>> wav file saved to: /workspace/Deepseek-R1-Chat-32B/index-tts/output/sentence_4.wav
+第 4 句合成成功！

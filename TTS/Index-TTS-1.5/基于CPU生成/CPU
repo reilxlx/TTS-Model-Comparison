@@ -1,0 +1,49 @@
+Architecture:            x86_64
+  CPU op-mode(s):        32-bit, 64-bit
+  Address sizes:         52 bits physical, 48 bits virtual
+  Byte Order:            Little Endian
+CPU(s):                  128
+  On-line CPU(s) list:   0-127
+Vendor ID:               AuthenticAMD
+  Model name:            AMD EPYC 9754 128-Core Processor
+    CPU family:          25
+    Model:               160
+    Thread(s) per core:  2
+    Core(s) per socket:  64
+    Socket(s):           1
+    Stepping:            2
+    BogoMIPS:            4500.07
+    Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_op
+                         t pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm tsc_known_freq pni pclmulqdq monitor ssse
+                         3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy c
+                         r8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core invpcid_single ibpb vmmcall fsgsbase tsc_adjust bmi1 a
+                         vx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsave
+                         opt xsavec xgetbv1 avx512_bf16 clzero xsaveerptr wbnoinvd arat avx512vbmi umip avx512_vbmi2 vaes vpclmulqdq avx512_vnni avx512
+                         _bitalg avx512_vpopcntdq rdpid fsrm
+Virtualization features: 
+  Hypervisor vendor:     KVM
+  Virtualization type:   full
+Caches (sum of all):     
+  L1d:                   2 MiB (64 instances)
+  L1i:                   2 MiB (64 instances)
+  L2:                    64 MiB (64 instances)
+  L3:                    128 MiB (8 instances)
+NUMA:                    
+  NUMA node(s):          1
+  NUMA node0 CPU(s):     0-127
+Vulnerabilities:         
+  Itlb multihit:         Not affected
+  L1tf:                  Not affected
+  Mds:                   Not affected
+  Meltdown:              Not affected
+  Mmio stale data:       Not affected
+  Retbleed:              Not affected
+  Spec store bypass:     Vulnerable
+  Spectre v1:            Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:            Mitigation; Retpolines, IBPB conditional, STIBP disabled, RSB filling, PBRSB-eIBRS Not affected
+  Srbds:                 Not affected
+  Tsx async abort:       Not affected
+➜  Deepseek-R1-Chat-32B free -g
+               total        used        free      shared  buff/cache   available
+Mem:             128           7         105           0          15         120
+Swap:              0           0           0
