@@ -83,6 +83,12 @@
             height: 36px;
             outline: none;
         }
+        
+        /* 修改参考音频列的宽度 */
+        .reference-audio {
+            width: 100%;
+            max-width: 280px;
+        }
 
         audio::-webkit-media-controls-panel {
             background-color: #f7f7f7;
@@ -197,7 +203,6 @@
             <table class="tts-table">
                 <thead>
                     <tr>
-                        <th class="speaker-column">Speaker</th>
                         <th>参考音频</th>
                         <th class="text-column">文本内容</th>
                         <th class="audio-column">IndexTTS</th>
@@ -210,9 +215,8 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="speaker-column">Speaker-1</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/liutao.mp3" type="audio/mpeg">
                             </audio>
                         </td>
@@ -249,9 +253,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="speaker-column">Speaker-1</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/liutao.mp3" type="audio/mpeg">
                             </audio>
                         </td>
@@ -288,9 +291,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="speaker-column">Speaker-1</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/liutao.mp3" type="audio/mpeg">
                             </audio>
                         </td>
@@ -327,9 +329,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="speaker-column">Speaker-1</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/liutao.mp3" type="audio/mpeg">
                             </audio>
                         </td>
@@ -378,7 +379,6 @@
             <table class="tts-table">
                 <thead>
                     <tr>
-                        <th class="speaker-column">Speaker</th>
                         <th>参考音频</th>
                         <th class="text-column">文本内容</th>
                         <th class="audio-column">IndexTTS</th>
@@ -391,9 +391,8 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="speaker-column">Speaker-2</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/dilireba.mp3" type="audio/mpeg">
                             </audio>
                         </td>
@@ -430,9 +429,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="speaker-column">Speaker-2</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/dilireba.mp3" type="audio/mpeg">
                             </audio>
                         </td>
@@ -469,9 +467,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="speaker-column">Speaker-2</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/dilireba.mp3" type="audio/mpeg">
                             </audio>
                         </td>
@@ -508,9 +505,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="speaker-column">Speaker-2</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/dilireba.mp3" type="audio/mpeg">
                             </audio>
                         </td>
@@ -559,7 +555,6 @@
             <table class="tts-table">
                 <thead>
                     <tr>
-                        <th class="speaker-column">Speaker</th>
                         <th>参考音频</th>
                         <th class="text-column">文本内容</th>
                         <th class="audio-column">IndexTTS</th>
@@ -572,9 +567,8 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="speaker-column">Speaker-3</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/gulinazha.wav" type="audio/wav">
                             </audio>
                         </td>
@@ -611,9 +605,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="speaker-column">Speaker-3</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/gulinazha.wav" type="audio/wav">
                             </audio>
                         </td>
@@ -648,9 +641,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="speaker-column">Speaker-3</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/gulinazha.wav" type="audio/wav">
                             </audio>
                         </td>
@@ -685,9 +677,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="speaker-column">Speaker-3</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls class="reference-audio">
                                 <source src="参考音频/gulinazha.wav" type="audio/wav">
                             </audio>
                         </td>
@@ -750,7 +741,7 @@
                     <tr>
                         <td class="speaker-column">IndexTTS</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls style="max-width: 500px;">
                                 <source src="TTS/index-TTS/en-cn-indextts.wav" type="audio/wav">
                             </audio>
                         </td>
@@ -758,7 +749,7 @@
                     <tr>
                         <td class="speaker-column">Index-TTS-1.5</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls style="max-width: 500px;">
                                 <source src="TTS/Index-TTS-1.5/基于GPU生成/en-cn-indextts1_5.wav" type="audio/wav">
                             </audio>
                         </td>
@@ -766,7 +757,7 @@
                     <tr>
                         <td class="speaker-column">Fish-Speech-1.5</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls style="max-width: 500px;">
                                 <source src="TTS/Fish-Speech-1.5/en-cn-FishSpeech1-5.wav" type="audio/wav">
                             </audio>
                         </td>
@@ -774,7 +765,7 @@
                     <tr>
                         <td class="speaker-column">SparkTTS</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls style="max-width: 500px;">
                                 <source src="TTS/SparkTTS/en-cn-sparktts.wav" type="audio/wav">
                             </audio>
                         </td>
@@ -782,7 +773,7 @@
                     <tr>
                         <td class="speaker-column">CosyVoice2</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls style="max-width: 500px;">
                                 <source src="TTS/CosyVoice2/en-cn-CosyVoice2.wav" type="audio/wav">
                             </audio>
                         </td>
@@ -790,7 +781,7 @@
                     <tr>
                         <td class="speaker-column">F5-TTS</td>
                         <td class="audio-cell">
-                            <audio controls>
+                            <audio controls style="max-width: 500px;">
                                 <source src="TTS/F5-TTS/en-cn-F5TTS.wav" type="audio/wav">
                             </audio>
                         </td>
